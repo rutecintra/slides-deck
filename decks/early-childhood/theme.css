@@ -30,3 +30,5 @@ em{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset
 .photo figure{position:relative;background:#f8f3e6;padding:20px 20px 16px;transform:rotate(-2deg);box-shadow:12px 15px 0 #ffffff15}.photo img{padding:0;transform:none;height:380px}.photo figcaption{color:#23221e;font-size:15px;line-height:1.4}
 .sequence .body p{border:0;border-left:3px dashed #a14429;background:#fff4d9;color:#29261e;margin:0 0 19px;padding:20px 26px;font-size:32px;box-shadow:7px 7px 0 #0002}.sequence .body p:nth-child(2){transform:rotate(-2deg)}.sequence b{color:#9d391e}
 .conclusions p{border-bottom:2px dashed;font-size:33px}.references .chapter-sketch{opacity:.35}.references .refs{background:#fffcf3;padding:1px 22px;box-shadow:5px 6px 0 #0001}.references .refs p{font-size:24px;margin:20px 0}.references em{text-decoration:none}
+
+.photo h1{font-size:84px}
