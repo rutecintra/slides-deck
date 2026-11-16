@@ -49,4 +49,4 @@ The childhood presentation uses the chapter summaries and notes developed from *
 
 This is a public static website. Speaker notes are hidden from audience view but remain accessible in the public JSON. Do not use it for confidential material. There is no authentication, online editor, or automatic offline caching in this version.
 
-Video slides load YouTube only after Play video is selected. Open on YouTube is available if embedding is restricted. Playback is local to the selected window; use the projected audience window to play audio and video. Closing the player or changing slides stops playback.
+Video slides load YouTube only after the thumbnail is selected. The Portuguese link “Abrir no YouTube” is available if embedding is restricted. Playback is local to the selected window; use the projected audience window to play audio and video. Closing the player or changing slides stops playback.

@@ -33,3 +33,5 @@ em{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset
 
 .photo h1{font-size:84px}
 .video-slide .composition{grid-template-columns:1.1fr 1fr}.video-slide h1{font-size:100px}.video-eyebrow{font:16px monospace;letter-spacing:3px;color:#a43b21;margin:0 0 30px}.video-slide .body{align-self:start;margin-top:105px;background:#faf0c8;padding:24px 32px 40px;box-shadow:10px 12px 0 #0002;transform:rotate(1.5deg)}.video-mark{font:120px/1 Georgia,serif;color:#ee4c24}.video-question{font:italic 40px/1.2 Georgia,serif!important}
+
+.video-slide .body{margin-top:520px;padding:16px 24px;transform:rotate(1deg)}.video-slide .video-question{font-size:32px!important;margin:0}.video-slide .video-mark{display:none}
