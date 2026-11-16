@@ -1,0 +1,741 @@
+{
+  "id": "sip-ai-workshop",
+  "title": "Pensar com ou pensar pela IA?",
+  "subtitle": "Oficina da Semana Internacional de Pedagogia · UFAL",
+  "language": "pt-BR",
+  "slides": [
+    {
+      "id": "sip-01",
+      "title": "Pensar com ou pensar pela IA?",
+      "section": "opening",
+      "presenter": "Rute",
+      "html": "<section class='slide section-opening cover' data-index='0'><div class='corner'>01/29</div><div class='kicker'>OFICINA · SIP 2026</div><h1>Pensar com<br>ou pensar <em>pela</em> IA?</h1><div class='subtitle'>Autoria, aprendizagem e limites da Inteligência Artificial na Educação</div><div class='orbit'><div class='slash'></div></div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Abrir com tensão, não com definição."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "“Hoje eu não vim ensinar vocês a usar ChatGPT. Vim propor uma pergunta mais incômoda: quando a IA entra no processo, o que ainda é nosso?”"
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Em algum momento recente vocês sentiram que a IA pensou no lugar de vocês?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Não explicar tudo. Deixar a pergunta no ar e avançar."
+        }
+      ]
+    },
+    {
+      "id": "sip-02",
+      "title": "Qual foi a última coisa que você deixou a IA pensar por você?",
+      "section": "opening",
+      "presenter": "Rute",
+      "html": "<section class='slide section-opening statement' data-index='1'><div class='corner'>02/29</div><div class='eyebrow'>ANTES DE COMEÇAR</div><h1>Qual foi a última coisa que você deixou a IA <span class=\"marker\">pensar por você?</span></h1><p class='caption'>Não precisa responder bonito. Precisa responder honestamente.</p></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Gerar reconhecimento e diminuir a postura defensiva."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Dê 15 segundos de silêncio. Depois peça 3 ou 4 respostas curtas da sala."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Foi economia de tempo ou fuga do esforço?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Não moralizar as respostas. Você também pode dar um exemplo seu."
+        }
+      ]
+    },
+    {
+      "id": "sip-03",
+      "title": "Quem já…",
+      "section": "opening",
+      "presenter": "Rute",
+      "html": "<section class='slide section-opening poll' data-index='2'><div class='corner'>03/29</div><div class='eyebrow'>MÃO LEVANTADA, SEM JULGAMENTO</div><h2>Quem já…</h2><div class='poll-list'><div class='poll-item'>pediu resumo de um texto que não queria ler?</div><div class='poll-item'>copiou uma resposta e depois não saberia defendê-la?</div><div class='poll-item'>aceitou algo porque estava bem escrito demais para parecer errado?</div><div class='poll-item'>usou IA para começar porque a página em branco parecia impossível?</div></div><div class='footer-callout'>O problema não começa no uso. Começa quando paramos de perceber o que delegamos.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Mapear práticas reais da sala."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Leia uma frase por vez e peça mão levantada. Mantenha o ritmo."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Algum desses usos é necessariamente ruim?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "A resposta desejada é “depende”. Isso prepara a oficina."
+        }
+      ]
+    },
+    {
+      "id": "sip-04",
+      "title": "≠",
+      "section": "opening",
+      "presenter": "Rute",
+      "html": "<section class='slide section-opening contrast' data-index='3'><div class='corner'>04/29</div><div class='contrast-wrap'><div class='contrast-side'><div class='word'>EFICIÊNCIA</div><div class='sub'>chegar mais rápido</div></div><div class='contrast-symbol'>≠</div><div class='contrast-side'><div class='word'>APRENDIZAGEM</div><div class='sub'>construir capacidade</div></div></div><div class='contrast-caption'>Às vezes coincidem. Às vezes entram em conflito.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Apresentar o eixo central da oficina."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "“Se uma ferramenta reduz o esforço, ótimo. Mas e quando justamente aquele esforço era parte do que eu precisava aprender?”"
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Toda dificuldade é desperdício?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Use exemplos simples: calculadora, GPS, corretor ortográfico."
+        }
+      ]
+    },
+    {
+      "id": "sip-05",
+      "title": "JOGO RÁPIDO · QUAL É FREIRE?",
+      "section": "provocation",
+      "presenter": "Rute",
+      "html": "<section class='slide section-provocation quote-game' data-index='4'><div class='corner'>05/29</div><div class='eyebrow'>JOGO RÁPIDO · QUAL É FREIRE?</div><div class='quote-grid'><div class='quote-card'><div class='quote-letter'>A</div><div class='quote-text'>“Quando a educação não é libertadora, o sonho do oprimido é ser o opressor.”</div></div><div class='quote-card'><div class='quote-letter'>B</div><div class='quote-text'>“Ensinar não é transferir conhecimento, mas criar as possibilidades para a sua produção ou a sua construção.”</div></div><div class='quote-card'><div class='quote-letter'>C</div><div class='quote-text'>“Em contextos educacionais marcados pela ausência de práticas emancipatórias, o sujeito historicamente oprimido tende a reproduzir estruturas hegemônicas de poder.”</div></div></div><div class='caption'>Escolha uma. E explique por que você confiou nela.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Fazer a turma sentir, não só ouvir, o problema da plausibilidade."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Peça votação A/B/C. Depois escolha alguém de cada opção para justificar."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“O que no texto fez parecer verdadeiro?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Não revelar ainda. Deixe a confiança aparecer primeiro."
+        }
+      ]
+    },
+    {
+      "id": "sip-06",
+      "title": "B é uma formulação de Pedagogia da Autonomia.",
+      "section": "provocation",
+      "presenter": "Rute",
+      "html": "<section class='slide section-provocation reveal' data-index='5'><div class='corner'>06/29</div><div class='eyebrow'>REVELAÇÃO</div><h2>B é uma formulação de <em>Pedagogia da Autonomia</em>.</h2><div class='reveal-cards'><div class='reveal-card'><b>A</b><div class='tag'>circula amplamente atribuída a Freire</div><div class='desc'>sem obra/página, trate como atribuição até checar</div></div><div class='reveal-card'><b>B</b><div class='tag'>Freire, 1996</div><div class='desc'>“Ensinar não é transferir conhecimento…”</div></div><div class='reveal-card'><b>C</b><div class='tag'>foi fabricada para esta oficina</div><div class='desc'>soa acadêmica; isso não a torna fonte</div></div></div><div class='footer-callout'>Primeira regra de sobrevivência: fluência não é evidência.</div><div class='source'>Freire, Pedagogia da Autonomia (1996), p. 13.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Transformar a brincadeira em questão de autoria e verificação."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Não precisa atacar a frase A. O ponto é: “vocês saberiam localizar a fonte?”"
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Por que uma frase sem fonte consegue ganhar autoridade?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Evite afirmar que A jamais foi dita por Freire; foque na ausência de referência verificável."
+        }
+      ]
+    },
+    {
+      "id": "sip-07",
+      "title": "SOA VERDADEIRO",
+      "section": "provocation",
+      "presenter": "Rute",
+      "html": "<section class='slide section-provocation why-believe' data-index='6'><div class='corner'>07/29</div><div class='eyebrow'>POR QUE ACREDITAMOS?</div><div class='word-cloud'><div class='cloud-word'>parece plausível</div><div class='cloud-word'>combina com o autor</div><div class='cloud-word'>está bem escrito</div><div class='cloud-word'>já vimos algo parecido</div><div class='cloud-word'>chegou com confiança</div></div><div class='center-stamp'>SOA VERDADEIRO</div><div class='footer-callout'>Nosso cérebro também usa atalhos. A IA aprende a falar a língua desses atalhos.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Nomear heurísticas de confiança sem tecnicismo pesado."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "“A IA não precisa nos convencer com provas; muitas vezes basta soar familiar e coerente.”"
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Qual desses atalhos pega mais você?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Mantenha leve; isso é ponte para o funcionamento dos modelos."
+        }
+      ]
+    },
+    {
+      "id": "sip-08",
+      "title": "O modelo não “abre uma gaveta” e encontra a verdade.",
+      "section": "theory",
+      "presenter": "Rute",
+      "html": "<section class='slide section-theory machine' data-index='7'><div class='corner'>08/29</div><div class='eyebrow'>SEM MISTICISMO</div><h2>O modelo não “abre uma gaveta” e encontra a verdade.</h2><div class='machine-steps'><div class='machine-step'>seu contexto</div><div class='machine-arrow'>→</div><div class='machine-step'>padrões aprendidos</div><div class='machine-arrow'>→</div><div class='machine-step'>próximas sequências prováveis</div><div class='machine-arrow'>→</div><div class='machine-step'>resposta fluente</div></div><div class='footer-callout'>Um modelo pode produzir uma frase ótima e uma informação errada no mesmo parágrafo.</div><div class='source'>UNESCO, Guidance for Generative AI in Education and Research (2023; atual. 2026).</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Explicar LLMs de modo suficiente para a discussão pedagógica."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Use a ideia de autocomplete em escala enorme, mas ressalve que é uma simplificação pedagógica."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“O que muda quando a resposta parece conversa, e não resultado de busca?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Não entrar em arquitetura de transformers, embeddings, RLHF etc., salvo se alguém perguntar."
+        },
+        {
+          "label": "Apoio à fala",
+          "html": "<details ><summary>Se alguém puxar para o técnico</summary><div ><p ><b>Resposta de bolso:</b> um modelo de linguagem é uma rede neural que aprendeu padrões em muitos textos e, ao responder, calcula quais pedaços de texto provavelmente vêm a seguir. Ele não “pensa” como uma pessoa nem consulta uma gaveta interna de fatos.</p><dl><dt>LLM</dt><dd><b>Large Language Model.</b> Um modelo treinado para trabalhar com linguagem: receber texto, reconhecer padrões e gerar texto.</dd><dt>Token</dt><dd>O pedacinho de texto que o modelo processa. Pode ser uma palavra inteira, parte dela ou até pontuação.</dd><dt>Prompt</dt><dd>O que você entrega ao modelo: pergunta, instrução, texto, exemplo e contexto.</dd><dt>Contexto</dt><dd>O conjunto de informações que o modelo consegue “enxergar” naquele momento para produzir a resposta.</dd><dt>Parâmetros</dt><dd>Bilhões de ajustes numéricos internos aprendidos no treinamento. Pense neles como “ajustes finos” que guardam padrões, não como fichas com fatos escritos.</dd><dt>Treinamento</dt><dd>A fase em que o modelo vê muitos exemplos e ajusta esses parâmetros para aprender regularidades da linguagem.</dd><dt>Transformer</dt><dd>A arquitetura usada por muitos LLMs. Ela ajuda o modelo a relacionar partes diferentes do texto e perceber o que é mais relevante para cada trecho.</dd><dt>Atenção</dt><dd>O mecanismo que ajuda o modelo a dar mais peso a certas partes do contexto enquanto processa outras.</dd><dt>Inferência</dt><dd>É o momento do uso: você envia um prompt e o modelo gera uma resposta usando o que aprendeu.</dd><dt>Temperatura</dt><dd>Um controle de aleatoriedade. Mais baixa tende a respostas mais previsíveis; mais alta, mais variadas.</dd><dt>Alucinação</dt><dd>Quando a IA produz algo plausível, mas falso ou inventado. Não é uma mentira intencional; é uma falha da geração.</dd><dt>RAG</dt><dd>Quando o sistema busca documentos ou fontes externas e entrega esses trechos ao modelo antes de ele responder. Ajuda a ancorar a resposta, mas ainda exige verificação.</dd></dl></div></details>"
+        }
+      ]
+    },
+    {
+      "id": "sip-09",
+      "title": "Tribunal da IA",
+      "section": "theory",
+      "presenter": "Rute",
+      "html": "<section class='slide section-theory big-equals' data-index='8'><div class='corner'>09/29</div><div class='eq-grid'><div class='eq-word'>FLUÊNCIA</div><div class='eq-symbol'>≠</div><div class='eq-word'>VERDADE</div></div><div class='eq-caption'>e também não é fonte, intenção, autoria ou responsabilidade.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Fixar visualmente a ideia central."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "“Uma resposta pode ser impecável na forma e frágil no conteúdo.”"
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“O que vocês costumam conferir primeiro: a linguagem ou a fonte?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Slide de respiro. Não alongar."
+        }
+      ]
+    },
+    {
+      "id": "sip-10",
+      "title": "Vocês são a banca. A IA não tem direito a defesa.",
+      "section": "activity",
+      "presenter": "Rute",
+      "html": "<section class='slide section-activity activity' data-index='9'><div class='corner'>10/29</div><div class='num'>01</div><div class='eyebrow'>ATIVIDADE · AUTÓPSIA DE UMA RESPOSTA</div><h2>Vocês são a banca. A IA não tem direito a defesa.</h2><div class='instruction-row'><div class='instruction'>marque o que você CONFIA</div><div class='instruction'>circule o que você VERIFICARIA</div><div class='instruction'>risque o que você REJEITARIA</div></div><div class='footer-callout'>Não procure “pegar erro”. Procure justificar seu grau de confiança.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Treinar avaliação, não caça ao erro."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Entregue/imprima uma resposta preparada com pontos corretos e suspeitos. Grupos de 3 a 5."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“O que fez vocês desconfiar?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Tenha a resposta-problema já impressa ou em QR/link. Timer de 8 min."
+        }
+      ]
+    },
+    {
+      "id": "sip-11",
+      "title": "Uma resposta boa precisa sobreviver a três perguntas.",
+      "section": "activity",
+      "presenter": "Rute",
+      "html": "<section class='slide section-activity debrief' data-index='10'><div class='corner'>11/29</div><div class='eyebrow'>DEBRIEF</div><h2>Uma resposta boa precisa sobreviver a três perguntas.</h2><div class='triad'><div class='triad-item'><div class='triad-n'>01</div><div class='triad-t'>É plausível?</div></div><div class='triad-item'><div class='triad-n'>02</div><div class='triad-t'>É verificável?</div></div><div class='triad-item'><div class='triad-n'>03</div><div class='triad-t'>Quem responde por ela?</div></div></div><div class='footer-callout'>Plausibilidade é só a porta de entrada.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Converter a atividade em método que eles possam reutilizar."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Peça exemplos do material que passaram de um critério e falharam em outro."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Qual dessas três perguntas a gente mais pula?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Anote 1 ou 2 falas boas da turma para retomar no final."
+        }
+      ]
+    },
+    {
+      "id": "sip-12",
+      "title": "Terceirizar cognição não começou com a IA.",
+      "section": "theory",
+      "presenter": "Rute",
+      "html": "<section class='slide section-theory timeline' data-index='11'><div class='corner'>12/29</div><div class='eyebrow'>TERCEIRIZAR NÃO COMEÇOU COM A IA</div><h2>Terceirizar cognição não começou com a IA.</h2><div class='timeline-row'><div class='timeline-item'><div class='timeline-tool'>AGENDA</div><div class='timeline-fn'>memória</div></div><div class='timeline-item'><div class='timeline-tool'>CALCULADORA</div><div class='timeline-fn'>cálculo</div></div><div class='timeline-item'><div class='timeline-tool'>GPS</div><div class='timeline-fn'>navegação</div></div><div class='timeline-item'><div class='timeline-tool'>BUSCA</div><div class='timeline-fn'>recuperação</div></div><div class='timeline-item'><div class='timeline-tool'>IA</div><div class='timeline-fn'>?</div></div></div><div class='footer-callout'>Cognitive offloading: usar o ambiente ou uma ferramenta para reduzir demanda mental.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Desdramatizar o conceito de offloading."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "“Nós sempre distribuímos cognição. A pergunta é: qual função estamos distribuindo agora?”"
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“O que a IA terceiriza que as ferramentas anteriores não terceirizavam tão facilmente?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Conduzir para elaboração, julgamento, síntese, escrita, decisão."
+        }
+      ]
+    },
+    {
+      "id": "sip-13",
+      "title": "Qual esforço eu estou poupando… e esse esforço fazia parte da aprendizagem?",
+      "section": "theory",
+      "presenter": "Rute",
+      "html": "<section class='slide section-theory question' data-index='12'><div class='corner'>13/29</div><div class='eyebrow'>A PERGUNTA MAIS IMPORTANTE DE HOJE</div><h1>Qual esforço eu estou poupando…<br><span>e esse esforço fazia parte da aprendizagem?</span></h1></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Dar uma regra simples de decisão pedagógica."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Dê exemplos: formatar referência vs. construir argumento; corrigir typo vs. elaborar hipótese."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Em que tarefas a dificuldade é pedagogicamente produtiva?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Pode surgir debate sobre acessibilidade. Reconheça que esforço produtivo não é sofrimento obrigatório."
+        }
+      ]
+    },
+    {
+      "id": "sip-14",
+      "title": "Mais confiança na IA apareceu associada a menos pensamento crítico autorrelatado.",
+      "section": "research",
+      "presenter": "Rute",
+      "html": "<section class='slide section-research numbers' data-index='13'><div class='corner'>14/29</div><div class='eyebrow'>O QUE UMA PESQUISA DE 2025 ENCONTROU</div><div class='number-row'><div class='number-card'><div class='big-num'>319</div><div class='num-label'>trabalhadores</div></div><div class='number-card'><div class='big-num'>936</div><div class='num-label'>situações reais de uso</div></div></div><h2>Mais confiança na IA apareceu associada a menos pensamento crítico autorrelatado.</h2><div class='caption'>Mas atenção: associação + autorrelato ≠ “IA causa declínio cognitivo”.</div><div class='source'>Lee et al., CHI 2025 · Microsoft Research / ACM · DOI 10.1145/3706598.3713778</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Trazer evidência sem sensacionalismo."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Explique que o estudo mede percepção de enação do pensamento crítico, não “QI” ou dano cerebral."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Por que autoconfiança para fazer a tarefa sem IA pode mudar a forma de usá-la?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Reforce o desenho do estudo: survey, 319, 936 exemplos."
+        }
+      ]
+    },
+    {
+      "id": "sip-15",
+      "title": "MAS O PENSAMENTO NÃO SOME. ELE MUDA DE LUGAR.",
+      "section": "research",
+      "presenter": "Rute",
+      "html": "<section class='slide section-research shift' data-index='14'><div class='corner'>15/29</div><div class='eyebrow'>MAS O PENSAMENTO NÃO SOME. ELE MUDA DE LUGAR.</div><h2>MAS O PENSAMENTO NÃO SOME. ELE MUDA DE LUGAR.</h2><div class='shift-grid'><div class='shift-col'><div class='shift-label'>ANTES / PARTE DO TRABALHO</div><div class='shift-item'>formular</div><div class='shift-item'>produzir</div><div class='shift-item'>lembrar</div></div><div class='shift-arrow'>→</div><div class='shift-col after'><div class='shift-label'>COM IA / PARTE DO TRABALHO</div><div class='shift-item'>verificar</div><div class='shift-item'>integrar</div><div class='shift-item'>supervisionar</div></div></div><div class='footer-callout'>A questão pedagógica é decidir quais movimentos cognitivos queremos preservar, deslocar ou ampliar.</div><div class='source'>Lee et al., 2025; UNESCO, 2023/2026.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Evitar a narrativa “IA = burrificação”."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "“O estudo também mostra deslocamento: pensar criticamente passa a incluir verificar e supervisionar.”"
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Isso é perda, ganho ou transformação?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Aceite respostas diferentes. Esse é um ponto de tensão produtivo."
+        }
+      ]
+    },
+    {
+      "id": "sip-16",
+      "title": "INTERVALO",
+      "section": "intermission",
+      "presenter": "Rute",
+      "html": "<section class='slide section-intermission break' data-index='15'><div class='corner'>16/29</div><div><h1>INTERVALO</h1><div class='subtitle'>Um intervalo sem delegar o café para nenhuma IA.</div></div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Pausa real."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Avise o horário exato de retorno."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "—"
+        },
+        {
+          "label": "Atenção",
+          "text": "Deixe este slide projetado com timer."
+        }
+      ]
+    },
+    {
+      "id": "sip-17",
+      "title": "IA como interlocutora, não como ghostwriter.",
+      "section": "activity",
+      "presenter": "Rute",
+      "html": "<section class='slide section-activity activity-steps' data-index='16'><div class='corner'>17/29</div><div class='num'>02</div><div class='eyebrow'>ATIVIDADE · PENSAR ANTES DE PERGUNTAR</div><h2>IA como interlocutora, não como ghostwriter.</h2><div class='step-grid'><div class='step-card'><div class='step-num'>1</div><div><div class='step-title'>SEM IA</div><div class='step-desc'>Escreva sua posição + 2 argumentos + 1 dúvida.</div></div></div><div class='step-card'><div class='step-num'>2</div><div><div class='step-title'>COM IA</div><div class='step-desc'>Peça perguntas que tensionem sua posição. Não peça a resposta.</div></div></div><div class='step-card'><div class='step-num'>3</div><div><div class='step-title'>REESCREVA</div><div class='step-desc'>Mude o que realmente mudou no seu pensamento.</div></div></div><div class='step-card'><div class='step-num'>4</div><div><div class='step-title'>COMPARE</div><div class='step-desc'>O que foi seu? O que foi provocado? O que você recusou?</div></div></div></div><div class='prompt-strip'>“Não responda por mim. Faça três perguntas que revelem fragilidades, contradições ou pressupostos na posição que vou apresentar.”</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Experimentar uma arquitetura de uso que preserve agência."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Tema sugerido: “A universidade deve permitir IA generativa em trabalhos acadêmicos? Em quais condições?”"
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“A IA escreveu melhor ou fez você pensar melhor?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Se internet falhar, faça a etapa 2 em duplas: uma pessoa assume o papel de interlocutor crítico."
+        }
+      ]
+    },
+    {
+      "id": "sip-18",
+      "title": "DEBRIEF · NÃO É SÓ “USOU / NÃO USOU”",
+      "section": "activity",
+      "presenter": "Rute",
+      "html": "<section class='slide section-activity axes' data-index='17'><div class='corner'>18/29</div><div class='eyebrow'>DEBRIEF · NÃO É SÓ “USOU / NÃO USOU”</div><h2>DEBRIEF · NÃO É SÓ “USOU / NÃO USOU”</h2><div class='axes-board' data-x='QUEM PRODUZ A RESPOSTA?' data-y='QUEM TOMA AS DECISÕES?'><div class='quad q1'><div style='font:800 11px var(--mono);opacity:.7'>APOIO</div>IA produz / humano decide</div><div class='quad q2'><div style='font:800 11px var(--mono);opacity:.7'>INTERLOCUÇÃO</div>humano produz / IA tensiona</div><div class='quad q3'><div style='font:800 11px var(--mono);opacity:.7'>DEPENDÊNCIA</div>IA produz / IA decide</div><div class='quad q4'><div style='font:800 11px var(--mono);opacity:.7'>AUTONOMIA SEM ASSISTÊNCIA</div>humano produz / humano decide</div></div><div class='footer-callout'>O lugar pedagógico da IA muda quando muda o papel cognitivo de cada agente.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Dar linguagem para diferenciar tipos de uso."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Peça para a turma posicionar exemplos nos quadrantes."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Qual quadrante mais favoreceu seu aprendizado na atividade anterior?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Não trate um quadrante como moralmente puro. Contexto importa."
+        }
+      ]
+    },
+    {
+      "id": "sip-19",
+      "title": "Usar IA = plágio?",
+      "section": "authorship",
+      "presenter": "Rute",
+      "html": "<section class='slide section-authorship myth' data-index='18'><div class='corner'>19/29</div><div class='eyebrow'>PERGUNTA QUE SEMPRE APARECE</div><h1>Usar IA = plágio?</h1><div class='answer'>NÃO<br><span>NECESSARIAMENTE.</span></div><div class='caption'>Mas “não é plágio” também não significa “é automaticamente íntegro”.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Separar conceitos que costumam ser misturados."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "“Plágio, autoria, fraude, uso não declarado e violação de regra institucional podem se sobrepor, mas não são a mesma coisa.”"
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Qual é o problema quando ninguém foi copiado, mas o processo intelectual foi terceirizado?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Evite dar regra jurídica universal; políticas institucionais variam."
+        }
+      ]
+    },
+    {
+      "id": "sip-20",
+      "title": "PENSE EM PROCESSOS, NÃO SÓ EM PRODUTOS",
+      "section": "authorship",
+      "presenter": "Rute",
+      "html": "<section class='slide section-authorship spectrum' data-index='19'><div class='corner'>20/29</div><div class='eyebrow'>PENSE EM PROCESSOS, NÃO SÓ EM PRODUTOS</div><h2>PENSE EM PROCESSOS, NÃO SÓ EM PRODUTOS</h2><div class='spectrum-row'><div class='spectrum-cell'><div class='lvl'>01</div><div class='lvl-title'>apoio</div><div class='lvl-desc'>clareza, revisão, acessibilidade</div></div><div class='spectrum-cell'><div class='lvl'>02</div><div class='lvl-title'>colaboração</div><div class='lvl-desc'>ideias, perguntas, contrapontos</div></div><div class='spectrum-cell'><div class='lvl'>03</div><div class='lvl-title'>substituição</div><div class='lvl-desc'>texto/argumento prontos sem elaboração</div></div><div class='spectrum-cell'><div class='lvl'>04</div><div class='lvl-title'>ocultação</div><div class='lvl-desc'>apresentar como próprio contra regra explícita</div></div></div><div class='footer-callout'>A pergunta ética não é apenas “a IA participou?”, mas “que parte do trabalho intelectual ficou invisível?”</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Dar nuance para autoria e integridade."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Dê um exemplo de cada nível. Mostre que uma mesma ferramenta aparece nos quatro."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Onde vocês colocariam revisão gramatical? E geração de bibliografia?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Deixe claro que normas locais podem mover as fronteiras."
+        },
+        {
+          "label": "Apoio à fala",
+          "html": "<div ><div >Exemplos prontos para puxar</div><div ><b>01 · Apoio</b> A pessoa escreve o próprio parágrafo e pede à IA: “aponte trechos confusos e erros de clareza, sem reescrever”. Ela decide o que muda.</div><div ><b>02 · Colaboração</b> A pessoa formula sua tese e pede: “faça três objeções e duas perguntas que tensionem meu argumento”. A IA provoca; o raciocínio continua com ela.</div><div ><b>03 · Substituição</b> A pessoa pede: “escreva a introdução e dois argumentos sobre este tema”, recebe o texto pronto e apenas faz pequenos ajustes antes de entregar.</div><div ><b>04 · Ocultação</b> A atividade exige produção individual ou declaração de uso de IA; a pessoa gera parte relevante do texto com a ferramenta e entrega como se fosse integralmente sua, sem informar o uso.</div></div>"
+        }
+      ]
+    },
+    {
+      "id": "sip-21",
+      "title": "Detector não é prova.",
+      "section": "authorship",
+      "presenter": "Rute",
+      "html": "<section class='slide section-authorship detector' data-index='20'><div class='corner'>21/29</div><div class='eyebrow'>E O “DETECTOR DE IA”?</div><h1>Detector não é prova.</h1><div class='fact-grid'><div class='fact'><div class='fact-brand'>Turnitin</div><div class='fact-text'>o próprio guia diz que o resultado não deve ser usado sozinho para ação adversa.</div></div><div class='fact'><div class='fact-brand'>OpenAI</div><div class='fact-text'>retirou seu classificador em 2023 por baixa precisão; no teste publicado, 26% de verdadeiros positivos e 9% de falsos positivos.</div></div></div><div class='footer-callout'>Integridade acadêmica exige evidência, diálogo, processo e política clara — não uma porcentagem mágica.</div><div class='source'>Turnitin Guides (acesso 2026); OpenAI, AI classifier (2023).</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Evitar uso punitivo simplista de detectores."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "“Um detector pode ser pista; não deveria virar sentença.”"
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“O que seria uma avaliação de autoria mais justa?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Não transforme isso em tutorial para burlar detectores."
+        }
+      ]
+    },
+    {
+      "id": "sip-22",
+      "title": "Verde, amarelo ou vermelho? O difícil é justificar.",
+      "section": "activity",
+      "presenter": "Rute",
+      "html": "<section class='slide section-activity tribunal-intro' data-index='21'><div class='corner'>22/29</div><div class='num'>03</div><div class='eyebrow'>ATIVIDADE · TRIBUNAL DA IA</div><h2>Verde, amarelo ou vermelho?<br><span>O difícil é justificar.</span></h2><div class='legend-row'><div class='legend-item'><div class='legend-title'>VERDE</div><div class='legend-desc'>favorece o processo</div></div><div class='legend-item'><div class='legend-title'>AMARELO</div><div class='legend-desc'>depende / exige cuidado</div></div><div class='legend-item'><div class='legend-title'>VERMELHO</div><div class='legend-desc'>uso problemático</div></div></div><div class='footer-callout'>Não existe ponto por adivinhar minha resposta. Existe ponto por argumentar.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Aplicar critérios em casos ambíguos."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Divida grupos. Para cada caso, 30–60 s de decisão + justificativa."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Qual critério pesou mais: aprendizagem, autoria, privacidade, verificação ou regra?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Os casos não precisam ter unanimidade."
+        }
+      ]
+    },
+    {
+      "id": "sip-23",
+      "title": "Não entendi. Explique de três maneiras diferentes.",
+      "section": "activity",
+      "presenter": "Rute",
+      "html": "<section class='slide section-activity case' data-index='22'><div class='corner'>23/29</div><div class='case-label'>CASO 01</div><h1>Não entendi. Explique de três maneiras diferentes.</h1><div class='body'>O estudante usa as explicações, fecha a ferramenta e escreve sua própria síntese.</div><div class='prov'>A IA substituiu o pensamento ou criou outro caminho para ele?</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Discutir tutoria, explicação e reconstrução."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Peça cor + 1 justificativa de cada lado."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Como sabemos se houve compreensão?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Pode aparecer acessibilidade; valorize."
+        }
+      ]
+    },
+    {
+      "id": "sip-24",
+      "title": "“Escreva meu trabalho. Eu arrumo depois.”",
+      "section": "activity",
+      "presenter": "Rute",
+      "html": "<section class='slide section-activity case' data-index='23'><div class='corner'>24/29</div><div class='case-label'>CASO 02</div><h1>“Escreva meu trabalho. Eu arrumo depois.”</h1><div class='body'>A pessoa recebe quatro páginas, troca palavras e entrega como produção própria.</div><div class='prov'>Mudar a superfície muda a autoria?</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Diferenciar edição cosmética de elaboração intelectual."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Conduza para processo, não só porcentagem de texto humano."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Ela conseguiria defender as decisões do texto?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Conectar com avaliação oral/processual."
+        }
+      ]
+    },
+    {
+      "id": "sip-25",
+      "title": "Referências perfeitas. Pena que duas não existem.",
+      "section": "activity",
+      "presenter": "Rute",
+      "html": "<section class='slide section-activity case' data-index='24'><div class='corner'>25/29</div><div class='case-label'>CASO 03</div><h1>Referências perfeitas. Pena que duas não existem.</h1><div class='body'>O estudante inclui títulos, autores e DOI sugeridos pela IA sem abrir nenhuma fonte.</div><div class='prov'>Quem é responsável pela referência falsa?</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Trabalhar verificação e responsabilidade."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "“A IA sugeriu; quem assinou o trabalho?”"
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Existe pesquisa sem consultar a fonte?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Ótimo gancho para mostrar DOI/Scholar/Periódicos CAPES como verificação."
+        }
+      ]
+    },
+    {
+      "id": "sip-26",
+      "title": "Feedback personalizado… com dados pessoais no prompt.",
+      "section": "activity",
+      "presenter": "Rute",
+      "html": "<section class='slide section-activity case' data-index='25'><div class='corner'>26/29</div><div class='case-label'>CASO 04</div><h1>Feedback personalizado… com dados pessoais no prompt.</h1><div class='body'>Uma professora envia nomes, relatos e produções identificáveis de estudantes para uma ferramenta pública.</div><div class='prov'>Ser pedagogicamente útil basta para ser aceitável?</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Adicionar privacidade e governança à conversa."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Conecte com a abordagem centrada no humano da UNESCO."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“Que dados você não colocaria num sistema que não controla?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Não entrar em parecer jurídico de LGPD; mantenha no princípio de minimização e cuidado."
+        }
+      ]
+    },
+    {
+      "id": "sip-27",
+      "title": "Usar IA sem abrir mão de si.",
+      "section": "closing",
+      "presenter": "Rute",
+      "html": "<section class='slide section-closing principles' data-index='26'><div class='corner'>27/29</div><div class='eyebrow'>NOSSO RASCUNHO DE UM PACTO</div><h2>Usar IA sem abrir mão de si.</h2><div class='principle-list'><div class='principle'><b>PENSAR</b> antes de pedir</div><div class='principle'><b>VERIFICAR</b> antes de repetir</div><div class='principle'><b>DECLARAR</b> quando a regra exigir</div><div class='principle'><b>PROTEGER</b> dados e pessoas</div><div class='principle'><b>ASSUMIR</b> a decisão final</div></div><div class='footer-callout'>Adicione, risque ou reescreva. O pacto é da sala.</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Transformar a oficina em síntese coletiva."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Peça à turma para alterar pelo menos um princípio. Anote no quadro."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "“O que está faltando?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Fotografe o pacto final se for útil para registro."
+        }
+      ]
+    },
+    {
+      "id": "sip-28",
+      "title": "Se a IA produz a resposta, mas o estudante não produz conhecimento, o que exatamente foi aprendido?",
+      "section": "closing",
+      "presenter": "Rute",
+      "html": "<section class='slide section-closing closing' data-index='27'><div class='corner'>28/29</div><div class='eyebrow'>ÚLTIMA PERGUNTA</div><div class='quote'>“Ensinar não é transferir conhecimento…”</div><h1>Se a IA produz a resposta,<br>mas o estudante não produz conhecimento,<br><span>o que exatamente foi aprendido?</span></h1><div class='footer-callout'>Pensar com. Não desaparecer do processo.</div><div class='source'>Paulo Freire, Pedagogia da Autonomia (1996).</div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Fechar voltando a Freire e ao eixo da oficina."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Faça silêncio depois da pergunta. Não responda por eles."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "Peça uma frase final: “Depois de hoje, o que você faria diferente?”"
+        },
+        {
+          "label": "Atenção",
+          "text": "Encerre antes de diluir o impacto com explicações extras."
+        }
+      ]
+    },
+    {
+      "id": "sip-29",
+      "title": "PARA CONTINUAR A CONVERSA",
+      "section": "references",
+      "presenter": "Rute",
+      "html": "<section class='slide section-references references' data-index='28'><div class='corner'>29/29</div><div class='eyebrow'>PARA CONTINUAR A CONVERSA</div><h2>Referências para levar daqui.</h2><div class='ref-links'><a href='https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research' target='_blank'>UNESCO</a> · <a href='https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/' target='_blank'>Lee et al. / Microsoft Research</a> · <a href='https://guides.turnitin.com/hc/en-us/articles/22774058814093-Using-the-AI-Writing-Report' target='_blank'>Turnitin Guide</a> · <a href='https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/' target='_blank'>OpenAI classifier archive</a></div><div class='ref-list'><div class='ref'><div class='ref-author'>FREIRE, Paulo.</div><div class='ref-title'>Pedagogia da autonomia: saberes necessários à prática educativa. 1996.</div><div class='ref-use'>Base para autonomia, curiosidade e construção do conhecimento.</div></div><div class='ref'><div class='ref-author'>MIAO, Fengchun; HOLMES, Wayne.</div><div class='ref-title'>Guidance for Generative AI in Education and Research. UNESCO, 2023; página atualizada em 2026.</div><div class='ref-use'>Abordagem centrada no humano, privacidade, ética e desenho pedagógico.</div></div><div class='ref'><div class='ref-author'>LEE, Hao-Ping et al.</div><div class='ref-title'>The Impact of Generative AI on Critical Thinking. CHI 2025. DOI: 10.1145/3706598.3713778.</div><div class='ref-use'>Survey com 319 trabalhadores e 936 exemplos de uso.</div></div><div class='ref'><div class='ref-author'>TURNITIN.</div><div class='ref-title'>Using the AI Writing Report.</div><div class='ref-use'>O próprio fornecedor alerta contra uso do indicador como única base para sanção.</div></div><div class='ref'><div class='ref-author'>OPENAI.</div><div class='ref-title'>New AI classifier for indicating AI-written text. 2023.</div><div class='ref-use'>Classificador retirado por baixa precisão; útil para discutir limites de detecção.</div></div></div></section>",
+      "notes": [
+        {
+          "label": "Objetivo",
+          "text": "Deixar leitura posterior e fontes dos dados."
+        },
+        {
+          "label": "Fala-chave",
+          "text": "Não precisa apresentar. Deixe acessível ao final."
+        },
+        {
+          "label": "Pergunta para a turma",
+          "text": "—"
+        },
+        {
+          "label": "Atenção",
+          "text": "Pode manter projetado enquanto as pessoas fotografam."
+        }
+      ]
+    }
+  ]
+}
