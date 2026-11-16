@@ -17,9 +17,43 @@ function fitSlide() {
   shell.style.width = `${1600 * scale}px`; shell.style.height = `${900 * scale}px`;
   query('.slide-frame').style.transform = `scale(${scale})`;
 }
+function closeVideo() {
+  const overlay = query('.video-overlay');
+  if (!overlay) return;
+  overlay.replaceChildren();
+  overlay.hidden = true;
+}
+function playVideo() {
+  const video = deck.slides[currentIndex].video;
+  if (!video) return;
+  const overlay = query('.video-overlay');
+  const frame = document.createElement('iframe');
+  frame.title = video.title;
+  frame.src = `https://www.youtube-nocookie.com/embed/${video.youtubeId}?autoplay=1&rel=0`;
+  frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+  frame.allowFullscreen = true;
+  frame.referrerPolicy = 'strict-origin-when-cross-origin';
+  const close = document.createElement('button');
+  close.textContent = 'Back to discussion';
+  close.onclick = () => { closeVideo(); query('#play-video').focus(); };
+  const fallback = document.createElement('a');
+  fallback.href = `https://www.youtube.com/watch?v=${video.youtubeId}`;
+  fallback.target = '_blank';
+  fallback.rel = 'noopener';
+  fallback.textContent = 'Open on YouTube ↗';
+  const controls = document.createElement('div');
+  controls.append(close, fallback);
+  overlay.replaceChildren(controls, frame);
+  overlay.hidden = false;
+  close.focus();
+}
 function showSlide(index, broadcast = true) {
+  closeVideo();
   currentIndex = clamp(Number.isFinite(index) ? index : 0, 0, deck.slides.length - 1);
   const slide = deck.slides[currentIndex];
+  const videoControls = query('.video-controls');
+  videoControls.hidden = !slide.video;
+  if (slide.video) query('#video-link').href = `https://www.youtube.com/watch?v=${slide.video.youtubeId}`;
   const frame = query('.slide-frame');
   frame.srcdoc = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><base href="${new URL('.', deckUrl)}"><style>${slideStyles}</style></head><body>${slide.html}</body></html>`;
   query('.counter').textContent = `${String(currentIndex + 1).padStart(2, '0')} / ${deck.slides.length}`;
@@ -38,6 +72,7 @@ function showSlide(index, broadcast = true) {
   if (broadcast) channel?.postMessage({type:'slide', index:currentIndex});
 }
 function handleKey(event) {
+  if (event.key === 'Escape' && !query('.video-overlay')?.hidden) { closeVideo(); return; }
   if (event.altKey || event.ctrlKey || event.metaKey || ['INPUT','TEXTAREA','SELECT','BUTTON','SUMMARY'].includes(event.target.tagName)) return;
   if (query('dialog').open) return;
   if (['ArrowRight','ArrowDown','PageDown',' '].includes(event.key)) { event.preventDefault(); showSlide(currentIndex + 1); }
@@ -59,6 +94,15 @@ async function initialize() {
     const responses = await Promise.all([fetch(deckUrl, {cache:'no-cache'}), fetch(new URL('./theme.css', deckUrl), {cache:'no-cache'})]);
     if (responses.some(response => !response.ok)) throw new Error('Presentation files could not be loaded.');
     [deck, slideStyles] = await Promise.all([responses[0].json(), responses[1].text()]);
+    const videoControls = document.createElement('div');
+    videoControls.className = 'video-controls';
+    videoControls.hidden = true;
+    videoControls.innerHTML = '<button class="primary" id="play-video">Play video</button><a id="video-link" target="_blank" rel="noopener">Open on YouTube ↗</a>';
+    const videoOverlay = document.createElement('div');
+    videoOverlay.className = 'video-overlay';
+    videoOverlay.hidden = true;
+    query('.slide-shell').append(videoControls, videoOverlay);
+    query('#play-video').onclick = playVideo;
     document.title = `${deck.title} · ${isSpeaker ? 'Speaker' : 'Audience'}`;
     query('.deck-title').textContent = deck.title;
     query('.speaker-panel').hidden = !isSpeaker;

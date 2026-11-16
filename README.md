@@ -5,7 +5,7 @@ Rute Cintra's presentation library, with stable links and a shared audience/spea
 ## Presentations
 
 1. **SIP AI workshop** — `decks/sip-ai-workshop/`: 29 approved audience slides, with the latest slide 20 examples and technical glossary in the speaker notes.
-2. **Early childhood** — `decks/early-childhood/`: 25 slides redesigned as a high-contrast typographic presentation, with chapter references and each group member's notes.
+2. **Early childhood** — `decks/early-childhood/`: 27 slides, including two video discussion pauses, redesigned as a high-contrast typographic presentation, with chapter references and each group member's notes.
 
 Open a presentation normally for audience view. Append `?mode=speaker` for the speaker workspace, then choose **Open audience window** and move it to the projector. Slides synchronize across same-origin windows in the same browser using BroadcastChannel. This is not remote-device synchronization. Each presentation is authored once in `deck.json`.
 
@@ -48,3 +48,5 @@ The childhood presentation uses the chapter summaries and notes developed from *
 ## Privacy
 
 This is a public static website. Speaker notes are hidden from audience view but remain accessible in the public JSON. Do not use it for confidential material. There is no authentication, online editor, or automatic offline caching in this version.
+
+Video slides load YouTube only after Play video is selected. Open on YouTube is available if embedding is restricted. Playback is local to the selected window; use the projected audience window to play audio and video. Closing the player or changing slides stops playback.

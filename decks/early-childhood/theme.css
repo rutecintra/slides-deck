@@ -32,3 +32,4 @@ em{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset
 .conclusions p{border-bottom:2px dashed;font-size:33px}.references .chapter-sketch{opacity:.35}.references .refs{background:#fffcf3;padding:1px 22px;box-shadow:5px 6px 0 #0001}.references .refs p{font-size:24px;margin:20px 0}.references em{text-decoration:none}
 
 .photo h1{font-size:84px}
+.video-slide .composition{grid-template-columns:1.1fr 1fr}.video-slide h1{font-size:100px}.video-eyebrow{font:16px monospace;letter-spacing:3px;color:#a43b21;margin:0 0 30px}.video-slide .body{align-self:start;margin-top:105px;background:#faf0c8;padding:24px 32px 40px;box-shadow:10px 12px 0 #0002;transform:rotate(1.5deg)}.video-mark{font:120px/1 Georgia,serif;color:#ee4c24}.video-question{font:italic 40px/1.2 Georgia,serif!important}
