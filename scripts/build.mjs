@@ -4,3 +4,8 @@ await mkdir('dist');
 for (const path of ['index.html','assets','decks']) await cp(path, `dist/${path}`, {recursive:true});
 await cp('.nojekyll','dist/.nojekyll');
 console.log('Static website built in dist/');
+
+if (process.argv.includes('--pdf')) {
+  const { buildPdfs } = await import('./build-pdfs.mjs');
+  await buildPdfs();
+}
